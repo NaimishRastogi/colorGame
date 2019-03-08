@@ -1,0 +1,88 @@
+body{
+    margin:0;
+    padding:0;
+    background-color: #232323;
+    font-family: sans-serif;
+}
+nav{
+    
+    width:100%;
+    float:left;
+    background-color: #ffffff;
+
+}
+button{
+    padding-top: 0.9%;
+    color:steelblue;
+    font-size: 1.1em;
+    font-weight: 600;
+    border:none;
+    background-color: white;
+    transition: all 0.6s;
+}
+button:hover{
+    background-color: steelblue;
+    color:white;
+}
+nav span{
+    color:steelblue;
+}
+#lives{
+    float:right;
+    background-color: white;
+    color:steelblue;
+    width:100%;
+    text-align: center;
+    padding-top: 1%;
+    font-size: 1.2em;
+    font-weight: bolder;   
+    letter-spacing: 2px; 
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+} 
+#containernav{
+    margin:0 auto;
+    max-width: 550px;;
+}
+#message{
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding-top: 0.9%;
+    text-align: center;
+    width:50%;
+}
+ #easy, #hard{
+    float:right;
+} 
+h1{
+    margin:0;
+    padding-top:0.5%;
+    padding-bottom:0.5%;
+    background-color:steelblue; 
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+#container{
+    background-color: aqua;
+    margin:2.4% auto;
+    max-width: 600px;
+}
+
+.box{
+    margin: 1.6%;
+    float:left;
+    width:30%;
+    padding-top:30%;
+    border-radius: 20px;
+}
+#colorDisplay{
+    font-size: 200%;
+}
+/*this class will be toggled onn or off based on selcted option hard/easy to apply css efects*/
+.selectedOption{
+    background-color: steelblue;
+    color:white;
+}
